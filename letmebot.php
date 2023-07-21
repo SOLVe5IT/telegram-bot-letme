@@ -25,7 +25,7 @@ function inline_response($query_id, $query_text) {
 	$urls = [
 		[
 			'ident' => 'google',
-			'url' => 'http://google.com/search?q=' . urlencode($query_text),
+			'url' => 'https://chat.openai.com/search?q=' . urlencode($query_text),
 			'name' => '🔎 Google',
 			'thumb_url' => 'https://www.google.de/images/hpp/ic_wahlberg_product_core_48.png8.png',
 			
